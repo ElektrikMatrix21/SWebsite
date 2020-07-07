@@ -1,0 +1,49 @@
+h1 {
+    color: plum;
+    margin-left: 10px;
+}
+
+a:link {
+    color: khaki;
+    opacity: 200;
+}
+
+a:visited {
+    color: palevioletred
+}
+
+.intro *{
+    border:solid;
+    border-color: rebeccapurple;
+    border-radius: 3px;
+    border-width: 2px;
+}
+
+.intro{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.talk{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.talk a{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.item:hover p{
+    opacity: 255;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
+
+
